@@ -1,0 +1,15 @@
+---
+title: Workout 17.1
+subtitle: Due by 2017-05-05
+layout: default
+modal-id: 1
+date: 2017-05-01
+img: 171_logo.jpg
+thumbnail: 171_logo_thumb.jpg
+alt: image-alt
+project-date:
+client: 
+category:
+description: Lorem ipsum dolor sit  amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+---
