@@ -6,7 +6,13 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-    $('a.page-scroll').bind('click', function(event) {
+
+$( document ).ready(function() {
+// Instafeed 
+var feed = new Instafeed({ get: 'tagged', tagName: 'kronancrossfit', accessToken: '4828639245.ba4c844.56b37e2ab2314b31aa66016543ec23ce', sortBy: 'most-recent', limit: '16' }); feed.run();
+});  
+
+$('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
