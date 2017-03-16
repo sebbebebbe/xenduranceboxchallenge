@@ -9,7 +9,15 @@ $(function() {
 
 $( document ).ready(function() {
 // Instafeed 
-var feed = new Instafeed({ get: 'tagged', tagName: 'kronancrossfit', accessToken: '4828639245.ba4c844.56b37e2ab2314b31aa66016543ec23ce', sortBy: 'most-recent', limit: '16' }); feed.run();
+var feed = new Instafeed({ get: 'tagged', 
+                           tagName: 'kronancrossfit',
+                           accessToken: '4828639245.ba4c844.56b37e2ab2314b31aa66016543ec23ce',
+                           sortBy: 'most-recent', 
+                           limit: '16',
+                           template: '<a class="instagramImage" href="{{link}}"><img src="{{image}}" /></a>' }); 
+
+
+feed.run();
 });  
 
 $('a.page-scroll').bind('click', function(event) {
@@ -30,6 +38,13 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$('div.modal').on('hide.bs.modal', function (e) {
+   var player = $(e.target).find('iframe'),
+        vidSrc = player.prop('src');
+    player.prop('src', ''); // to force it to pause
+    player.prop('src', vidSrc);
+})
 
 $('div.modal').on('show.bs.modal', function() {
 	var modal = this;
