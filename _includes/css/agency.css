@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
@@ -124,7 +124,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
@@ -251,6 +251,10 @@ fieldset[disabled] .btn-xl.active {
     width: auto\9; /* ie8 */
 }
 
+ul{
+    padding: 0;
+}
+
 .nobullets{
   list-style-type: none;
 }
@@ -258,6 +262,7 @@ fieldset[disabled] .btn-xl.active {
 li{
     margin-top: 8px;
     margin-bottom: 8px;
+    font-size: 18px;
 }
 
 .video-container {

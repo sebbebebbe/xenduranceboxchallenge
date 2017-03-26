@@ -1,0 +1,15 @@
+---
+title: Workout 17.4
+subtitle: 22nd May 1200 CET
+layout: default
+modal-id: 4
+date: 2017-05-22
+img:
+thumbnail: 174_logo_thumb.jpg
+alt: image-alt
+project-date:
+client: 
+category:
+videoUrl:
+description: Workout will be announced on 22th of May 1200 CET.
+---

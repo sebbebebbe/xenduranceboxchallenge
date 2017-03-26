@@ -10,7 +10,7 @@ $(function() {
 $( document ).ready(function() {
 // Instafeed 
 var feed = new Instafeed({ get: 'tagged', 
-                           tagName: 'kronancrossfit',
+                           tagName: 'xenduranceboxchallenge',
                            accessToken: '4828639245.ba4c844.56b37e2ab2314b31aa66016543ec23ce',
                            sortBy: 'most-recent', 
                            limit: '16',
