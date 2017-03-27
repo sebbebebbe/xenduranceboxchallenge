@@ -1,11 +1,10 @@
 url: http://www.xenduranceboxchallenge.com
-baseurl: /
+baseurl:
 
 # Site settings
 title: xendurance Box Challenge
 email: info@kronancrossfit.com
 description: "Join the community in your box and find the fittest guy & girl"
-
 
 # Team names, titles and social links
 people:
